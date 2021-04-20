@@ -1,7 +1,55 @@
-.container{
-    background-color: white;
+*{
+    font-family: Helvetica, sans-serif;
+    color: black;
 }
 
-.container__logo{
-    width: 20%;
+.container{
+    background-color: white;
+    display: block;
+    width: 30%;
+    height: 100%;
+    margin: auto;
+}
+
+.container__header_img{
+    width: 38%;
+    display: block;
+    margin: 0;
+    margin: auto;
+}
+
+.container__header_h2{
+    text-align: center;
+    font-size: 1.9rem;
+    letter-spacing: -0.1rem;
+    margin-top: 2%;
+}
+
+.container__header_button{
+    padding-top: 1%;
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 7.5%;
+    width: 55%;
+    height: 6.5%;
+    border-radius: 50px;
+    background-color:#1877f2;
+    color: white;
+    border-style: none;
+}
+
+.container__separador{
+    width: 60%;
+    margin: auto;
+}
+
+.container__separador_hr{
+    display: inline-block;
+    width: 40%;
+}
+
+.container__separador_h2{
+    display: inline-block;
 }
