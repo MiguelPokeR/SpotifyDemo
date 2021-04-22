@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import {MatInputModule} from '@angular/material/input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
     MatInputModule,
     BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

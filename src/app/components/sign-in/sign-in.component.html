@@ -8,13 +8,13 @@
     <button class="container__header_button">Registrarte con Facebook</button>
     <hr>
     <form [formGroup]="formSignIn">
+
         <input type="text" placeholder="Mail" formControlName="mail"><br><br>
         <input type="text" placeholder="Name" formControlName="name"><br><br>
         <input type="number" placeholder="Age" formControlName="age"><br><br>
 
-        <button>Enviar</button>
+        <button (click)="clickSignIn()">Enviar</button>
+
     </form>
-
-
 
 </div>
