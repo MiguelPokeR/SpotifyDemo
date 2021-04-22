@@ -6,11 +6,15 @@
     </div>
 
     <button class="container__header_button">Registrarte con Facebook</button>
-    
-    <div class="container__separador">
-        <hr class="container__separador_hr">
-        <h2 class="container__separador_h2">     o     </h2>
-        <hr class="container__separador_hr">
-    </div>
+    <hr>
+    <form [formGroup]="formSignIn">
+        <input type="text" placeholder="Mail" formControlName="mail"><br><br>
+        <input type="text" placeholder="Name" formControlName="name"><br><br>
+        <input type="number" placeholder="Age" formControlName="age"><br><br>
+
+        <button>Enviar</button>
+    </form>
+
+
 
 </div>
